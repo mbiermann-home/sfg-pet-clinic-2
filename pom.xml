@@ -16,7 +16,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic-2</artifactId>
-    <version>0.0.6-SNAPSHOT</version>
+    <version>0.0.6</version>
     <name>sfg-pet-clinic-2</name>
     <description>SFG Pet Clinic Project</description>
 
@@ -52,7 +52,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/mbiermann-home/sfg-pet-clinic-2.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>sfg-pet-clinic-2-0.0.6</tag>
   </scm>
 
 </project>
