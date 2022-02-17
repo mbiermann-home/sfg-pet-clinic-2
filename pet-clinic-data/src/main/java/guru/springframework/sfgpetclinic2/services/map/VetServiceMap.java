@@ -2,9 +2,11 @@ package guru.springframework.sfgpetclinic2.services.map;
 
 import guru.springframework.sfgpetclinic2.model.Vet;
 import guru.springframework.sfgpetclinic2.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
@@ -22,10 +24,7 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetS
     }
 
     @Override
-    public void delete(Vet object) {
-        super.delete(object);
-
-    }
+    public void delete(Vet object) { super.delete(object); }
 
     @Override
     public void deleteById(Long id) {

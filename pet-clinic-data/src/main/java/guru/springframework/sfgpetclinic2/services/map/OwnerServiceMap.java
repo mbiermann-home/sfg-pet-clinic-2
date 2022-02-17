@@ -2,9 +2,11 @@ package guru.springframework.sfgpetclinic2.services.map;
 
 import guru.springframework.sfgpetclinic2.model.Owner;
 import guru.springframework.sfgpetclinic2.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
@@ -23,10 +25,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public void delete(Owner object) {
-        super.delete(object);
-
-    }
+    public void delete(Owner object) { super.delete(object); }
 
     @Override
     public void deleteById(Long id) {
