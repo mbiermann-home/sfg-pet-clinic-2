@@ -12,4 +12,9 @@ public class IndexController {
         //Thymeleaf looks for index template and returns it here
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String oupsHandler(){
+        return "notimplemented";
+    }
 }
